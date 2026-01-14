@@ -5,142 +5,175 @@
     <title>CV - Nouha Lourik</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background: #f4f6f8;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #e9ecef;
             margin: 0;
             padding: 0;
+            color: #333;
         }
         .cv {
             width: 900px;
-            margin: 30px auto;
+            margin: 40px auto;
             background: white;
             display: flex;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            min-height: 1100px;
         }
         .left {
             width: 35%;
             background: #0b4f6c;
             color: white;
-            padding: 25px;
+            padding: 30px;
         }
         .right {
             width: 65%;
-            padding: 30px;
+            padding: 40px;
         }
         h1 {
             margin-top: 0;
-            font-size: 32px;
+            font-size: 36px;
+            color: #0b4f6c;
+            text-transform: uppercase;
+            margin-bottom: 5px;
         }
         h2 {
             background: #00a6d6;
             color: white;
-            padding: 8px;
+            padding: 10px 15px;
             font-size: 18px;
+            border-radius: 4px;
+            margin-top: 25px;
+        }
+        .left h2 {
+            background: rgba(255,255,255,0.1);
+            border-bottom: 2px solid #00a6d6;
+            padding-left: 0;
         }
         h3 {
             margin-bottom: 5px;
             color: #0b4f6c;
+            font-size: 19px;
         }
         ul {
-            padding-left: 18px;
+            padding-left: 20px;
         }
         li {
-            margin-bottom: 6px;
+            margin-bottom: 8px;
         }
         .section {
-            margin-bottom: 25px;
+            margin-bottom: 30px;
         }
         .contact p {
-            margin: 8px 0;
+            margin: 12px 0;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+        }
+        /* Style pour les liens */
+        .contact a {
+            color: white;
+            text-decoration: none;
+            margin-left: 5px;
+        }
+        .contact a:hover {
+            text-decoration: underline;
         }
         .small {
-            color: #555;
-            font-size: 14px;
+            color: #00a6d6;
+            font-weight: bold;
+            font-size: 15px;
+            margin-top: -5px;
+            display: block;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+            font-size: 13px;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .about-text {
+            line-height: 1.6;
+            text-align: justify;
         }
     </style>
 </head>
 <body>
 
 <div class="cv">
-    <!-- Colonne gauche -->
     <div class="left">
         <div class="contact section">
             <h2>CONTACT</h2>
-            <p>📞 0644454364</p>
-            <p>✉️ nouhalourik@gmail.com</p>
+            <p>📞 06 44 45 43 64</p>
+            <p>✉️ <a href="mailto:nouhalourik@gmail.com">nouhalourik@gmail.com</a></p>
             <p>📍 Salé, Maroc</p>
+            <p>🔗 <a href="https://linkedin.com/in/nouha-lourik" target="_blank">LinkedIn</a></p>
+            <p>📊 <a href="https://www.kaggle.com/nouhalourik" target="_blank">Kaggle (nouhalourik)</a></p>
         </div>
 
         <div class="section">
             <h2>COMPÉTENCES</h2>
-            <strong>Professionnelles</strong>
+            <p><strong>Informatiques</strong></p>
             <ul>
-                <li>Word</li>
-                <li>Excel</li>
-                <li>PowerPoint</li>
-                <li>HTML / CSS</li>
+                <li>Maîtrise Pack Office (Word, Excel, PowerPoint)</li>
+                <li>Bases HTML / CSS</li>
+                <li>Outils de Marketing Digital</li>
             </ul>
-            <strong>Personnelles</strong>
+            <p><strong>Soft Skills</strong></p>
             <ul>
-                <li>Communication</li>
-                <li>Gestion du temps</li>
-                <li>Créativité</li>
+                <li>Excellente communication</li>
+                <li>Organisation & Gestion du temps</li>
+                <li>Créativité & Esprit d'initiative</li>
+                <li>Esprit d'analyse</li>
             </ul>
         </div>
 
         <div class="section">
             <h2>LANGUES</h2>
             <ul>
-                <li>Arabe : Maternelle</li>
-                <li>Français : Courant</li>
-                <li>Anglais : Moyen</li>
+                <li><strong>Arabe :</strong> Langue maternelle</li>
+                <li><strong>Français :</strong> Courant / Professionnel</li>
+                <li><strong>Anglais :</strong> Niveau intermédiaire</li>
             </ul>
         </div>
 
         <div class="section">
             <h2>CENTRES D’INTÉRÊT</h2>
             <ul>
-                <li>Cuisine</li>
-                <li>Voyage</li>
-                <li>Lecture</li>
-                <li>Calcul mental</li>
+                <li>Analyse de données</li>
+                <li>Technologie</li>
+                <li>Apprentissage continu</li>
             </ul>
         </div>
     </div>
 
-    <!-- Colonne droite -->
     <div class="right">
+        <h1>Nouha Lourik</h1>
+        <span class="small">Profil recherché / Titre du poste</span>
+        
         <div class="section">
-            <h1>Nouha Lourik</h1>
-            <p class="small"><strong>Recherche de stage</strong></p>
-        </div>
-
-        <div class="section">
-            <h2>À PROPOS DE MOI</h2>
-            <p>
-                Jeune femme ouverte d’esprit, sociable et dynamique,
-                curieuse de mieux connaître la politique et l’économie,
-                organisée et motivée pour accomplir de nombreuses choses.
+            <h2>PROFIL</h2>
+            <p class="about-text">
+                Passionnée par le marketing digital et l'analyse de données, je possède une solide base technique en HTML/CSS et une maîtrise des outils bureautiques. Mon esprit d'analyse et ma créativité me permettent de proposer des solutions innovantes et efficaces pour répondre aux besoins des entreprises.
             </p>
         </div>
 
         <div class="section">
             <h2>FORMATION</h2>
+            <h3>Ton Diplôme</h3>
+            <span class="date">Établissement | Année - Année</span>
+            <ul>
+                <li>Détails sur ta formation...</li>
+            </ul>
+        </div>
 
-            <h3>Baccalauréat Sciences Économiques</h3>
-            <p class="small">Lycée Alfarabi – Had Kourt | Juin 2024</p>
-            <p>
-                Aide à développer une compréhension globale des bases
-                économiques et financières.
-            </p>
-
-            <h3>Marketing Digital et Commercial</h3>
-            <p class="small">École Supérieure de Technologie – Salé | 2024 – en cours</p>
-            <p>
-                Acquisition de compétences en marketing en ligne,
-                analyse de données, compréhension du comportement client
-                et optimisation des ventes.
-            </p>
+        <div class="section">
+            <h2>EXPÉRIENCES</h2>
+            <h3>Poste occupé</h3>
+            <span class="date">Entreprise | Date de début - Fin</span>
+            <ul>
+                <li>Missions principales...</li>
+            </ul>
         </div>
     </div>
 </div>
